@@ -7,23 +7,23 @@ h1, h3{
 	color:#ffffff;
 }
 aside {
-	float: left;
+	float: right;
 	clear: none;
-	margin: 2em;
-	padding: 1em;
+	margin:2em;
+	padding:1em;
 	text-align: center;
 }
 
 ul {
 	color:#ffffff;
-	text-align: right;
+	text-align: left;
 }
 
 section {
-	background-color:#555555;
-	border:5px solid;
+	background-color:#333322;
+	border:2px solid;
 	border-color:#ffffff;
-	border-radius:10px;
+	border-radius:15px;
 	margin:2em;
 	padding:1em;
 	text-align: center;
@@ -32,9 +32,9 @@ section {
 canvas {
 	background:url('imagenes/space1.png');
 	color:#ffffff;
-	border:5px solid;
+	border:2px solid;
 	border-color:#ffffff;
-	border-radius:10px;
+	border-radius:15px;
 }
 
 p {
@@ -47,6 +47,6 @@ button {
 	color:#ff0000;
 }
 
-#ship, #asteroid, #explosion, #logo, #disparo, #gameover{
+#ship, #asteroid, #explosion {
 	display:none;
 }

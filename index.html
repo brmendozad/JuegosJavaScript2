@@ -3,53 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="author" content="Brallan Mendoza-Luisa Cajamarca">
-		<title>StarFox JS</title>
-		<link rel="stylesheet" type="text/css" href="estilos.css" media="screen">
+		<title>Asteroids HTML5</title>
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen">
 		<script src="libs/jquery-1.11.0.min.js" language="JavaScript1.2"></script>
-		<script src="script.js" language="JavaScript1.2"></script>
+		<script src="scripts.js" language="JavaScript1.2"></script>
 	</head>
-	<body>
-		<aside>			
-			<img id="ship" src="imagenes/ship.png"/><br>
-			<img id="disparo" src="imagenes/disparo.png"/><br>
-			<img id="asteroid" src="imagenes/asteroid.png"/><br>
-			<img id="explosion" src="imagenes/explosion.png"/><br>
-			<img id="logo" src="imagenes/logo.png"/><br>
-			<img id="gameover" src="imagenes/gameover.png"/><br>			
-			<img src="imagenes/logo.png"/><br>
-			<hr>
-			<h3>Controles del juego</h3>
-			<img id="contrles" src="imagenes/arrows.png"/>
-			<br>
-			<button>iniciar</button>
-			<hr>
-			<p>Copyright @2017 Brallan Mendoza-Luisa Cajamarca</p>
-		</aside>
-		<section>
-
-			<canvas id="lienzo" width="500" height="700">
-				Tu navegador no es compatible
-			</canvas>
-
-			<audio id="main">
-				<source src="sonidos/main.ogg" type="audio/ogg">
-				<source src="sonidos/main.mp3" type="audio/mpeg">
-				Tu navegador no es compatible
-			</audio>
-			<audio id="explode">
-				<source src="sonidos/explode.ogg" type="audio/ogg">
-				<source src="sonidos/explode.mp3" type="audio/mpeg">
-				Tu navegador no es compatible
-			</audio>
-			<audio id="mission">
-				<source src="sonidos/mission.ogg" type="audio/ogg">
-				<source src="sonidos/mission.mp3" type="audio/mpeg">
-				Tu navegador no es compatible
-			</audio>
-
-		</section>
-
-
-
-	</body>
-</html>
+	<frameset ROWS=15%,85%>
+			<frame name="top" src="buttons.html">
+			<frame name="ventana" src="starfox.html">
+		</frameset>	
+	</html>

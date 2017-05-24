@@ -38,6 +38,7 @@ function inicio(){
 	contexto.drawImage(logo, 0, 300);
 	contexto.drawImage(buffer, 0, 0);
 	$('#main')[0].loop = true;
+	$('#mission')[0].loop = true;
 	$('#main')[0].play();
 	$("button").click(function(){	
 		iniciar();		
